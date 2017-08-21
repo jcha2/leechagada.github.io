@@ -150,6 +150,10 @@ pre {
 	word-wrap: break-word;
 }
 
+.mySlides {
+   display: none
+}
+
 .mainnav {
 	font: 1.1em;
 	line-height: 400%;
