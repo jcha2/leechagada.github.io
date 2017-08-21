@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" name="viewport"
+	content="width=device-width, initial-scale=1.0">
+<base href="소경"></base>
+<title>PASS</title>
+<link rel="stylesheet" type="text/css" href="passcss.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script type="text/javascript" src="loadXML.js"></script>
+<!-- [if lt IE 9]>
+        <script src="html5shiv.js"></script>
+   <![endif]-->
+</head>
+<body>
+	<div class="row">
+		<header class="col-12 col-m-12 upperheader">
+			<a href="main.html">PASS</a>
+		</header>
+		<nav class="w3-bar w3-green">
+			<a
+				class="colorwhite w3-bar-item w3-button w3-mobile"
+				href="main.html" style="width: 8%">HOME</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile"
+				href="component.html" style="width: 15%">PC 부품 설명</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile"
+				href="assemble.html" style="width: 15%">PC 조립 가이드</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile"
+				href="booting.html" style="width: 15%">PC 부팅 가이드</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile"
+				href="recommendation.html" style="width: 18%">용도별 맞춤 조립 PC 추천</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile" href="qna.html"
+				style="width: 17%">자주 묻는 질문</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile w3-right"
+				href="aboutus.html" style="width: 10%">ABOUT US</a>
+		</nav>
+	</div>
+	<div class="row">
+		<div class="w3-mobile" id="mySidebar">
+			<button onclick="w3_close()" class="w3-button">Close&times;</button>
+			<a href="component.html" class="w3-button w3-mobile">CPU</a> <a
+				href="ramexpl.html" class="w3-button w3-mobile">RAM</a> <a
+				href="mainexpl.html" class="w3-button w3-mobile">MAIN BOARD</a> <a
+				href="grapexpl.html" class="w3-button w3-mobile">VGA</a> <a
+				href="ssdexpl.html" class="w3-button w3-mobile">SSD</a> <a
+				href="hddexpl.html" class="w3-button w3-mobile">HDD</a> <a
+				href="powerexpl.html" class="w3-button w3-mobile">POWER SUPPLY</a> <a
+				href="oddexpl.html" class="w3-button w3-mobile">ODD</a> <a
+				href="mouseexpl.html" class="w3-button w3-mobile">MOUSE</a> <a
+				href="keyexpl.html" class="w3-button w3-mobile">KEYBOARD</a>
+		</div>
+	</div>
+	<div class="row w3-main" id="main">
+		<section>
+			<div class="w3-teal w3-light-grey">
+				<button class="w3-button w3-teal w3-large w3-light-grey"
+					onclick="w3_open()">☰</button>
+				<h3 class="w3-container">CPU</h3>
+			</div>
+			<img class="expl"
+				src="http://imgnews.naver.net/image/092/2008/11/09/nehalem_01.jpg?type=w540"
+				title="http://imgnews.naver.net/image/092/2008/11/09/nehalem_01.jpg?type=w540"
+				alt="CPU" />
+			<pre class="w3-container">
+<b><q>정의</q></b>
+
+중앙처리장치라는 뜻으로, 컴퓨터의 정중앙에서 모든 데이터를 처리하는 장치이다.
+CPU는 컴퓨터의 두뇌에 해당하는 것으로서, 사용자로부터 입력 받은 명령어를 해석하고 연산한 후 그 결과를 출력하는 역할을 한다. 
+
+<b><q>구분</q></b>
+
+ 1. 용도에 따라
+–기초형(가벼운 웹 서핑, 오피스 작업, 음악/단순 동영상 감상, 간단한 프로그래밍 연습, 단순한 게임 등)
+-일반형(기본형 + 무거운 웹 서핑, 고화질 동영상 감상, 2D 그래픽 작업, 단순한 3D 게임, 일반 프로그래밍 등)
+–고급형(일반형 + 3D 그래픽 작업, 단순 동영상 작업, 3D 게임, 대규모 프로그래밍 등)
+–최고급형(고급형 + 동영상 작업, 하드코어 3D 게임 등)
+예)Intel
+문서 작성 혹은 인터넷 서핑 : 셀러론, 펜티엄
+4K 이상 동영상 감상 및 간단한 게임 : i3, i5
+초 고사양 게임 (오버워치, 배틀필드 등) : i7
+기업용, 서버 : i7 익스트림
+예)AMD
+문서 작성 혹은 인터넷 서핑 : 카베리
+4K 이상 동영상 감상 및 간단한 게임 : FX, 라이젠3
+초 고사양 게임 (오버워치, 배틀필드 등) : 라이젠 5, 라이젠 7
+
+ 2. 인텔 라인업
+i7>i5>i3>펜티엄>셀러론 순으로 인텔의 라인업이 있다.
+천의 자리는 세대를 의미하며
+백의 자리와 십의 자리는 성능의 수치를 의미한다.
+일의 자리에는 0 또는 7이 오는데
+0이라면 이는 일반 CPU, 
+7이라면 이는 저전력 CPU라는 것을 말해준다.
+
+ +뒤에 붙는 알파벳 접미사에 대한 설명
+K : 배수락 해제로 오버클럭 가능
+QM : 쿼드코어 모바일(노트북) 프로세서
+M : 모바일(노트북) 프로세서
+U : 저전력 모바일 프로세서
+
+ +인텔 세대별 이름
+1세대 린필드
+2세대 샌디브릿지
+3세대 아이비브릿지
+4세대 하스웰
+5세대 브로드웰
+6세대 스카이레이크
+7세대 카비레이크
+8세대 커피레이크
+
+<b><q>고려사항</q></b>
+
+•벤치마크 순위
+*벤치마크: 컴퓨터 시스템의 성능평가의 한 방법. 
+평가 방법은 실제의 적용업무에 맞춘 표준문제를 설정하여 이것을 평가대상이 되는 컴퓨터로 실행, 그를 처리한 처리시간으로 평가한다. 
+이것을 평가하기 위해서 사용되는 표준적인 문제를 벤치마크 프로블럼(benchmark problem) 혹은 줄여서 단지 벤치마크라 한다.
+
+ •코어의 동작 속도(core clock speed)
+–CPU의 성능 : 속도가 빠를수록, 가격도 고가, 고발열
+–단위: GHz(gigahertz)로 표시
+–“기본 clock × clock 배수”의 결과
+–예: Intel Pentium G4500(Skylake)은 100MHz × 35 = 3.5GHz
+
+ •시스템 버스의 속도(Front Side Bus; FSB)
+–Intel Yorkfiled CPU까지
+–CPU가 주기억장치와 데이터를 주고받는 통로의 속도
+–단위: MHz(megahertz)로 표시
+–“기본 clock × 4(Intel 경우) 또는 2(AMD 경우)”의 결과
+–예: Intel Core2 Duo E6750은 333MHz × 4 = 1333MHz
+
+ •QPI, DMI 등 후속 버스의 속도와 대역폭
+–Quick Path Interconnect
+–Direct Media Interface
+
+•2차 캐쉬 메모리의 양(level 2 cache memory)
+-특수 고속 메모리
+–CPU와 주기억장치의 속도차로 인한 '병목현상'을 완화시키기 위해 쓰인다.
+–제작 단가가 고가이므로 보통 512KB~12MB 정도 포함한다.
+
+•코어의 수
+–CPU는 컴퓨터의 두뇌이나, 한 패키지 안에 여러 개의 코어를 넣을 수 있다(다중 두뇌?).
+–Intel의 경우 Pentium 4(Pentium 4 D는 제외)까지는 단일 코어였으나, 
+이후 2개의 코어를 가진 CPU(dual-core)에 이어 4개의 코어를 가진 CPU(quad-core), 
+현재는 6개의 코어가 들어간 CPU(hexa-core)에 이어 8개의 코어를 가진 CPU(octa-core)까지 시장에 나와있다. 
+–모든 작업에서 코어 수만큼의 성능 향상이 있는 것은 아니나, 
+3D 그래픽의 렌더링(rendering) 작업이나 동영상의 인코딩 작업 등에서는 월등한 성능을 발휘한다.
+
+ •소켓 형식: 메인보드와 일치하도록
+–AMD: A, 754, 939, AM2, AM2+, AM3, AM3+, FM1, FM2, FM2+, AM4(현재)
+–Intel: 478, LGA775, LGA1150, LGA1151(현재), LGA1155, LGA1156, LGA1356, LGA1366, LGA2011
+		</pre>
+
+		</section>
+	</div>
+	<div class="row">
+		<footer class="col-12 col-m-12"> copyright 2017. LEECHAGADA.
+			All rights reserved.</footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" name="viewport"
+	content="width=device-width, initial-scale=1.0">
+<base href="소경"></base>
+<title>PASS</title>
+<link rel="stylesheet" type="text/css" href="passcss.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script type="text/javascript" src="loadXML.js"></script>
+<!-- [if lt IE 9]>
+        <script src="html5shiv.js"></script>
+   <![endif]-->
+</head>
+<body>
+	<div class="row">
+		<header class="col-12 col-m-12 upperheader">
+			<a href="main.html">PASS</a>
+		</header>
+			<nav class="w3-bar w3-green">
+			<a class="colorwhite w3-bar-item w3-button w3-mobile"
+				href="main.html" style="width: 8%">HOME</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile"
+				href="component.html" style="width: 15%">PC 부품 설명</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile"
+				href="assemble.html" style="width: 15%">PC 조립 가이드</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile"
+				href="booting.html" style="width: 15%">PC 부팅 가이드</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile"
+				href="recommendation.html" style="width: 18%">용도별 맞춤 조립 PC 추천</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile" href="qna.html"
+				style="width: 17%">자주 묻는 질문</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile w3-right"
+				href="aboutus.html" style="width: 10%">ABOUT US</a>
+		</nav>
+	</div>
+	<div class="row">
+		<div class="w3-mobile" id="mySidebar">
+			<button onclick="w3_close()" class="w3-button">Close&times;</button>
+			<a href="component.html" class="w3-button w3-mobile">CPU</a> <a
+				href="ramexpl.html" class="w3-button w3-mobile">RAM</a> <a
+				href="mainexpl.html" class="w3-button w3-mobile">MAIN BOARD</a> <a
+				href="grapexpl.html" class="w3-button w3-mobile">VGA</a> <a
+				href="ssdexpl.html" class="w3-button w3-mobile">SSD</a> <a
+				href="hddexpl.html" class="w3-button w3-mobile">HDD</a> <a
+				href="powerexpl.html" class="w3-button w3-mobile">POWER SUPPLY</a> <a
+				href="oddexpl.html" class="w3-button w3-mobile">ODD</a> <a
+				href="mouseexpl.html" class="w3-button w3-mobile">MOUSE</a> <a
+				href="keyexpl.html" class="w3-button w3-mobile">KEYBOARD</a>
+		</div>
+	</div>
+	<div class="row w3-main" id="main">
+		<section>
+			<div class="w3-teal w3-light-grey">
+				<button class="w3-button w3-teal w3-large w3-light-grey"
+					onclick="w3_open()">☰</button>
+				<h3 class="w3-container">RAM</h3>
+			</div>
+			<img class="expl"
+				src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Memory_module_DDRAM_20-03-2006.jpg/440px-Memory_module_DDRAM_20-03-2006.jpg"
+				title="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Memory_module_DDRAM_20-03-2006.jpg/440px-Memory_module_DDRAM_20-03-2006.jpg"
+				alt="RAM" />
+			<pre class="w3-container">
+<b><q>정의</q></b>
+기억된 정보를 읽어내기도 하고 다른 정보를 기억시킬 수도 있는 메모리로서,
+컴퓨터의 주기억장치, 응용 프로그램의 일시적 로딩(loading), 데이터의 일시적 저장 등에 사용된다.
+
+<b><q>구분</q></b>
+ 1. 종류에 따라
+SDRAM
+DDR1 SDRAM
+DDR2 SDRAM: 전세대의 주력
+DDR3 SDRAM: 현재 주로 사용되고 있음
+DDR4 SDRAM: 최신 칩셋을 사용한 메인보드에서 사용되기 시작
+DDR5 SDRAM: 현재는 그래픽 카드에만 사용
+ 2. 용량에 따라
+4GB: 시스템이 32비트인 경우(최근 환경에서는 다소 부족)
+16GB ~ 64GB: 시스템이 64비트인 경우, 최근 일반 PC용 메인보드의 최대 용량
+
+<b><q>고려사항</q></b>
+ •RAM 타이밍
+-DRAM은 일정 간격으로 재충전이 필요하므로 주기마다 지연이 생기며,
+메모리는 읽거나 쓰려는 공간의 행 주소와 열 주소를 읽음으로써 접근하므로,
+그 과정에서도 지연이 생기게된다. 이러한 지연시간에 대한 스펙을 고려해야한다.
+
+ •RAM과 CPU의 궁합
+-CPU가 메모리와 데이터를 주고받는 속도인 FSB와 RAM의 작동 속도를 일치시켜준다면 RAM과 CPU가 최상의 궁합을 이루게 된다.
+-현재로서는 FSB의 작동 속도가 RAM보다 빠르므로, 
+RAM 모듈을 두 개 이상 장착하여 RAM의 대역폭이 FSB의 대역폭 이상으로 만들어 주는 것이 바람직하다. 
+
+		</pre>
+
+		</section>
+	</div>
+	<div class="row">
+		<footer class="col-12 col-m-12"> copyright 2017. LEECHAGADA.
+			All rights reserved.</footer>
+	</div>
+</body>
+</html>

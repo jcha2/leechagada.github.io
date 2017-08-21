@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" name="viewport"
+	content="width=device-width, initial-scale=1.0">
+<base href="소경"></base>
+<title>PASS</title>
+<link rel="stylesheet" type="text/css" href="passcss.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script type="text/javascript" src="loadXML.js"></script>
+<!-- [if lt IE 9]>
+        <script src="html5shiv.js"></script>
+   <![endif]-->
+</head>
+<body>
+	<div class="row">
+		<header class="col-12 col-m-12 upperheader">
+			<a href="main.html">PASS</a>
+		</header>
+		<nav class="w3-bar w3-green">
+			<a class="colorwhite w3-bar-item w3-button w3-mobile"
+				href="main.html" style="width: 8%">HOME</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile"
+				href="component.html" style="width: 15%">PC 부품 설명</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile"
+				href="assemble.html" style="width: 15%">PC 조립 가이드</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile"
+				href="booting.html" style="width: 15%">PC 부팅 가이드</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile"
+				href="recommendation.html" style="width: 18%">용도별 맞춤 조립 PC 추천</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile" href="qna.html"
+				style="width: 17%">자주 묻는 질문</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile w3-right"
+				href="aboutus.html" style="width: 10%">ABOUT US</a>
+		</nav>
+	</div>
+	<div class="row">
+		<div class="w3-mobile" id="mySidebar">
+			<button onclick="w3_close()" class="w3-button">Close&times;</button>
+			<a href="component.html" class="w3-button w3-mobile">CPU</a> <a
+				href="ramexpl.html" class="w3-button w3-mobile">RAM</a> <a
+				href="mainexpl.html" class="w3-button w3-mobile">MAIN BOARD</a> <a
+				href="grapexpl.html" class="w3-button w3-mobile">VGA</a> <a
+				href="ssdexpl.html" class="w3-button w3-mobile">SSD</a> <a
+				href="hddexpl.html" class="w3-button w3-mobile">HDD</a> <a
+				href="powerexpl.html" class="w3-button w3-mobile">POWER SUPPLY</a> <a
+				href="oddexpl.html" class="w3-button w3-mobile">ODD</a> <a
+				href="mouseexpl.html" class="w3-button w3-mobile">MOUSE</a> <a
+				href="keyexpl.html" class="w3-button w3-mobile">KEYBOARD</a>
+		</div>
+	</div>
+	<div class="row w3-main" id="main">
+		<section>
+			<div class="w3-teal w3-light-grey">
+				<button class="w3-button w3-teal w3-large w3-light-grey"
+					onclick="w3_open()">☰</button>
+				<h3 class="w3-container">KEYBOARD</h3>
+			</div>
+			<img class="expl"
+				src="http://ncc.phinf.naver.net/20140318_266/1395123715089QnOhu_JPEG/Untitled-2.jpg"
+				title="http://ncc.phinf.naver.net/20140318_266/1395123715089QnOhu_JPEG/Untitled-2.jpg"
+				alt="KEYBOARD" />
+			<pre class="w3-container">
+<b><q>정의</q></b>
+
+입력장치의 하나.
+
+<b><q>구분</q></b>
+
+ 1.멤브레인 키보드
+-키를 누르면 아래의 고무 스위치 판이 눌러지고, 그 고무판을 통해서 기판이 눌러짐으로 인해 입력 신호를 전달하는 방식. 
+소음이 적고 내구성이 좋고 제조가 쉽고 저렴하다. 
+모든 키가 한 기판 안에 있기 때문에 동시에 여러 키가 눌리지 않는 경우가 많고, 타수가 빠를수록 오타가 많아질 확률이 많다. 
+
++ 펜타그래프 키보드 = 멤브레인 형식, 오로지 얇고 가볍게 만들어 노트북에 쓰거나 휴대하기 좋게 만들기 위해 발명된 키보드
+
+ 2.기계식 키보드
+-키를 누르면 축 안의 스프링이 눌러지면서 입력신호가 전달되는 방식. 
+모든 키가 독립적이라 동시입력이 가능한 경우가 많아 게이밍 키보드로 주로 쓰인다. 
+각 키 별로 축이라는 것이 존재하기 때문에 단가가 비싸다. 축에도 종류가 있는데 이에 따라 키 감이 다르다. 
+대표적으로 청축, 적축, 갈축, 흑축이 있으며 핑크/브론즈/실버축 등도 출시되었다.
+
+ 3.플런저 키보드
+-멤브레인 키보드에 축을 설치해 키 감을 살린 키보드. 때문에 기계식 키보드와 거의 흡사한 키 감을 즐길 수 있다. 
+단가는 멤브레인보다 비싸고 기계식보다는 대부분 싸다.
+ 
+ 4.무접점 키보드
+다른 키보드들은 키 와 기판의 접점이 발생해야 입력신호가 발생한다면, 무접점의 경우에는 키를 누르면 눌리는 힘에 따라 축전량이 올라간다. 
+키를 누를 때 발생하는 그 축전량을 키 안의 축전기가 측정해, 일정량 이상이 되면 눌린 것으로 판단해 입력신호가 보내지게 되기 때문에 키를 세게, 완전히 다 누르지 않아도 입력이 된다. 
+이 때문에 기계식처럼 키를 누르는 재미는 없으나 장시간 입력을 해야 할 때 손목에 무리가 오지 않아 사무용으로 추천하는 키보드이다.
+
+<b><q>고려사항 혹은 주의사항</q></b>
+
+키보드의 경우 매장에서 직접 눌러보고 자신에게 맞는 키감의 키보드를 사는 것이 좋다.
+
+		</pre>
+			<img
+				src="http://postfiles5.naver.net/MjAxNzA4MjFfMTUg/MDAxNTAzMzAzMjkxNzEz.ZLsYTG_Q3oi_RpSP4akxaoQyIIdGUg3uo0DD4bQnEv4g.v9Ils_ccfUA1mTStCbCDLVe0rM7U2RNeNFce8yv6Hvwg.JPEG.puppy0312/KakaoTalk_20170821_170838403.jpg?type=w773"
+				title="http://postfiles5.naver.net/MjAxNzA4MjFfMTUg/MDAxNTAzMzAzMjkxNzEz.ZLsYTG_Q3oi_RpSP4akxaoQyIIdGUg3uo0DD4bQnEv4g.v9Ils_ccfUA1mTStCbCDLVe0rM7U2RNeNFce8yv6Hvwg.JPEG.puppy0312/KakaoTalk_20170821_170838403.jpg?type=w773"
+				alt="KEYBOARD2" />
+
+
+		</section>
+	</div>
+	<div class="row">
+		<footer class="col-12 col-m-12"> copyright 2017. LEECHAGADA.
+			All rights reserved.</footer>
+	</div>
+</body>
+</html>

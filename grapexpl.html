@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" name="viewport"
+	content="width=device-width, initial-scale=1.0">
+<base href="소경"></base>
+<title>PASS</title>
+<link rel="stylesheet" type="text/css" href="passcss.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script type="text/javascript" src="loadXML.js"></script>
+<!-- [if lt IE 9]>
+        <script src="html5shiv.js"></script>
+   <![endif]-->
+</head>
+<body>
+	<div class="row">
+		<header class="col-12 col-m-12 upperheader">
+			<a href="main.html">PASS</a>
+		</header>
+		<nav class="w3-bar w3-green">
+			<a class="colorwhite w3-bar-item w3-button w3-mobile"
+				href="main.html" style="width: 8%">HOME</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile"
+				href="component.html" style="width: 15%">PC 부품 설명</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile"
+				href="assemble.html" style="width: 15%">PC 조립 가이드</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile"
+				href="booting.html" style="width: 15%">PC 부팅 가이드</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile"
+				href="recommendation.html" style="width: 18%">용도별 맞춤 조립 PC 추천</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile" href="qna.html"
+				style="width: 17%">자주 묻는 질문</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile w3-right"
+				href="aboutus.html" style="width: 10%">ABOUT US</a>
+		</nav>
+	</div>
+	<div class="row">
+		<div class="w3-mobile" id="mySidebar">
+			<button onclick="w3_close()" class="w3-button">Close&times;</button>
+			<a href="component.html" class="w3-button w3-mobile">CPU</a> <a
+				href="ramexpl.html" class="w3-button w3-mobile">RAM</a> <a
+				href="mainexpl.html" class="w3-button w3-mobile">MAIN BOARD</a> <a
+				href="grapexpl.html" class="w3-button w3-mobile">VGA</a> <a
+				href="ssdexpl.html" class="w3-button w3-mobile">SSD</a> <a
+				href="hddexpl.html" class="w3-button w3-mobile">HDD</a> <a
+				href="powerexpl.html" class="w3-button w3-mobile">POWER SUPPLY</a> <a
+				href="oddexpl.html" class="w3-button w3-mobile">ODD</a> <a
+				href="mouseexpl.html" class="w3-button w3-mobile">MOUSE</a> <a
+				href="keyexpl.html" class="w3-button w3-mobile">KEYBOARD</a>
+		</div>
+	</div>
+	<div class="row w3-main" id="main">
+		<section>
+			<div class="w3-teal w3-light-grey">
+				<button class="w3-button w3-teal w3-large w3-light-grey"
+					onclick="w3_open()">☰</button>
+				<h3 class="w3-container">VGA</h3>
+			</div>
+			<img class="expl"
+				src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/IBM_90X8941_VGA.jpg/440px-IBM_90X8941_VGA.jpg"
+				title="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/IBM_90X8941_VGA.jpg/440px-IBM_90X8941_VGA.jpg"
+				alt="VGA" />
+			<pre class="w3-container">
+<b><q>정의</q></b>
+
+컴퓨터의 아날로그 모니터용 그래픽 장치, 즉 그래픽 카드를 통틀어 이야기하는 것
+
+<b><q>구성 요소</q></b>
+
+gpu, 메모리, 비디오 bios, RAMDAC, GPU 냉각장치(방열판, 방열판+히트파이프, 방열판+쿨러), 
+메인보드 인터페이스, 출력 인터페이스, 보조 전원 공급 커넥터(고사양 pc의 경우)
+
+<b><q>구분</q></b>
+
+ 1. gpu
+-형태
+독립형(별도로 구매해야 함, 주로 게임용 조립 pc에 장착)
+내장형(주로 노트북에서 사용, CPU에 내장되어 있음.)
+혼합형
+
+-제조사
+nVidia: 지포스 시리즈 유명 (점유율 높음)
+AMD: 라데온 시리즈 유명
+Intel
+Matrox
+
+ 2. 비디오 메모리
+GDDR
+GDDR2
+GDDR3
+GDDR4
+GDDR5
+* 그래픽카드에서 사용하고 있는 메모리 종류로는 GDDR3 와 GDDR5 가 있으며, GDDR5 가 GDDR3 에 비해 처리속도가 2배 빠름. 
+즉, 500MHz 클럭의 메모리를 사용할 때, GDDR3 는 1000MHz의 처리 속도를 보이고, GDDR5는 2000MHz의 처리 속도를 보임
+
++메모리 용량에 따른 유형
+저가형 : 1GB
+보급형 : 2~4GB
+고급형 : 6GB 이상
+
+ 3. 냉각 장치
+방열판
+방열판 + 쿨러
+방열판 + 히트파이프
+ 4. 출력 인터페이스
+d-sub
+dvi(2000년대)
+hdmi(현재 사용)
+
+
+<b><q>고려사항</q></b>
+
+•벤치마크 순위
+*벤치마크: 컴퓨터 시스템의 성능평가의 한 방법. 
+평가 방법은 실제의 적용업무에 맞춘 표준문제를 설정하여 이것을 평가대상이 되는 컴퓨터로 실행, 그를 처리한 처리시간으로 평가한다. 
+이것을 평가하기 위해서 사용되는 표준적인 문제를 벤치마크 프로블럼(benchmark problem) 혹은 줄여서 단지 벤치마크라 한다.
+
+•그래픽 코어 속도
+•비디오 메모리 버스 폭
+•비디오 메모리 용량 – 용량이 클수록 성능이 좋다. 
+•비디오 메모리로 사용되는 RAM의 속도
+
+*비트코인 채굴 조심(새 상품인지 확인)
+		</pre>
+
+		</section>
+	</div>
+	<div class="row">
+		<footer class="col-12 col-m-12"> copyright 2017. LEECHAGADA.
+			All rights reserved.</footer>
+	</div>
+</body>
+</html>
