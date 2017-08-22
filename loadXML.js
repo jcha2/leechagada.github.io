@@ -90,10 +90,10 @@ function myFunction(id) {
 	if (x.className.indexOf("w3-show") == -1) {
 		x.className += " w3-show";
 		x.previousElementSibling.className = x.previousElementSibling.className
-				.replace("w3-white", "w3-green");
+				.replace("w3-white", "w3-grey");
 	} else {
 		x.className = x.className.replace(" w3-show", "");
 		x.previousElementSibling.className = x.previousElementSibling.className
-				.replace("w3-green", "w3-white");
+				.replace("w3-grey", "w3-white");
 	}
 }
