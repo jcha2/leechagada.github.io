@@ -149,6 +149,10 @@ pre {
 	display: none;
 }
 
+#mySidebar {
+	display: none;
+}
+
 .mainnav {
 	font: bold 1.2em;
 	line-height: 400%;
