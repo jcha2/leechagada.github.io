@@ -2,19 +2,16 @@
 
 * {
 	box-sizing: border-box;
+	font-family: "함초롬돋움", "돋움", Dotum, monospace !important;
 }
 
-body, html, header {
+body, html {
 	height: 100%;
 	margin: 0;
 	padding: 0;
 	font-size: 100%;
 	width: 100%;
 	overflow: auto;
-}
-
-html {
-	font-family: '함초롬돋움', monospace;
 }
 
 [class*="col-"] {
@@ -140,7 +137,7 @@ header {
 nav {
 	text-align: center;
 	font-weight: bold;
-	font-size: 1em;
+	font-size: 1.1em;
 	display: table-cell;
 	word-wrap: break-word;
 	line-height: 200%;
@@ -151,11 +148,11 @@ pre {
 }
 
 .mySlides {
-   display: none
+	display: none
 }
 
 .mainnav {
-	font: 1.1em;
+	font: 1.2em;
 	line-height: 400%;
 }
 
