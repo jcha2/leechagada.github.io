@@ -116,9 +116,8 @@ body {
 }
 
 header {
-	text-align: center;
-	text-shadow: 1px 1px 1px #FFFFFF;
-	background-color: #FFFFFF;
+	text-align: center;		
+	background-color: #CEF279;
 	letter-spacing: 8px;
 	font-weight: bold;
 	font-size: 8em;
@@ -127,17 +126,16 @@ header {
 
 .upperheader {
 	font-weight: bold;
-	font-size: 4em;
+	font-size: 5em;
 	text-align: center;
-	background-color: #FFFFFF;
+	background-color: #CEF279;
 	line-height: 130%;
 	padding: 1%;
 }
 
 nav {
+	font: bold 1.2em;
 	text-align: center;
-	font-weight: bold;
-	font-size: 1.1em;
 	display: table-cell;
 	word-wrap: break-word;
 	line-height: 200%;
@@ -148,11 +146,11 @@ pre {
 }
 
 .mySlides {
-	display: none
+	display: none;
 }
 
 .mainnav {
-	font: 1.2em;
+	font: bold 1.2em;
 	line-height: 400%;
 }
 
@@ -184,18 +182,23 @@ nav ul li a {
 .expl {
 	margin: 1%;
 	align: center;
-	width: 400px;
-	height: 300px;
+	width: 35%;
+	height: 60%;
 }
 
 .w3-sidebar {
 	position: absolute;
 }
 
+img {
+	width: 80%;
+	height: 95%;
+}
+
 footer {
 	text-align: center;
 	text-decoration: none;
-	font: 0.8em;
+	font: bold 1em;
 }
 
 a:link {
@@ -230,9 +233,4 @@ a:active {
 
 .colorwhite:active {
 	color: #79ABFF;
-}
-
-nav ul li a:hover {
-	color: red;
-	text-decoration: underline;
 }
