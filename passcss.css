@@ -195,6 +195,12 @@ img {
 	height: 95%;
 }
 
+.logo {
+	float: left;
+	width: 450px;
+	height: 450px;
+}
+
 footer {
 	text-align: center;
 	text-decoration: none;
