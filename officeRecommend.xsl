@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-	<xsl:decimal-format name="won" decimal-separator=","/>
+	<xsl:decimal-format name="won" decimal-separator="," />
 	<xsl:template match="/">
-	
+
 		<html>
 			<body>
 				<div>
@@ -15,7 +15,6 @@
 							<th>가격(최저가)</th>
 							<th>코어</th>
 							<th>스레드</th>
-						
 						</tr>
 						<xsl:for-each select="item/CPUs/basic/cpu">
 							<xsl:sort data-type="number" select="price"></xsl:sort>
@@ -31,17 +30,19 @@
 									원대
 								</td>
 								<td>
-									<xsl:value-of select="core"></xsl:value-of>개
+									<xsl:value-of select="core"></xsl:value-of>
+									개
 								</td>
 								<td>
-									<xsl:value-of select="thread"></xsl:value-of>개
+									<xsl:value-of select="thread"></xsl:value-of>
+									개
 								</td>
 							</tr>
 
 						</xsl:for-each>
 					</table>
-
 				</div>
+				
 				<div>
 					<p>CPU general</p>
 					<table>
@@ -51,7 +52,6 @@
 							<th>가격(최저가)</th>
 							<th>코어</th>
 							<th>스레드</th>
-						
 						</tr>
 						<xsl:for-each select="item/CPUs/general/cpu">
 							<xsl:sort data-type="number" select="price"></xsl:sort>
@@ -67,17 +67,18 @@
 									원대
 								</td>
 								<td>
-									<xsl:value-of select="core"></xsl:value-of>개
+									<xsl:value-of select="core"></xsl:value-of>
+									개
 								</td>
 								<td>
-									<xsl:value-of select="thread"></xsl:value-of>개
+									<xsl:value-of select="thread"></xsl:value-of>
+									개
 								</td>
 							</tr>
-
 						</xsl:for-each>
 					</table>
-
 				</div>
+				
 				<div>
 					<p>CPU high</p>
 					<table>
@@ -87,7 +88,7 @@
 							<th>가격(최저가)</th>
 							<th>코어</th>
 							<th>스레드</th>
-						
+
 						</tr>
 						<xsl:for-each select="item/CPUs/high/cpu">
 							<xsl:sort data-type="number" select="price"></xsl:sort>
@@ -103,18 +104,18 @@
 									원대
 								</td>
 								<td>
-									<xsl:value-of select="core"></xsl:value-of>개
+									<xsl:value-of select="core"></xsl:value-of>
+									개
 								</td>
 								<td>
-									<xsl:value-of select="thread"></xsl:value-of>개
+									<xsl:value-of select="thread"></xsl:value-of>
+									개
 								</td>
 							</tr>
-
 						</xsl:for-each>
 					</table>
-
 				</div>
-				
+
 				<div>
 					<p>마우스</p>
 					<table>
@@ -145,16 +146,14 @@
 								<td>
 									<xsl:value-of select="feature"></xsl:value-of>
 								</td>
-							<td>
+								<td>
 									<xsl:value-of select="explain"></xsl:value-of>
 								</td>
 							</tr>
-
 						</xsl:for-each>
 					</table>
-
 				</div>
-				
+
 				<div>
 					<p>마우스</p>
 					<table>
@@ -181,20 +180,15 @@
 								<td>
 									<xsl:value-of select="feature"></xsl:value-of>
 								</td>
-							<td>
+								<td>
 									<xsl:value-of select="explain"></xsl:value-of>
 								</td>
 							</tr>
-
 						</xsl:for-each>
 					</table>
-
 				</div>
-				
-				
-				
-			</body>
 
+			</body>
 		</html>
 
 	</xsl:template>
