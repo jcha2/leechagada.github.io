@@ -116,7 +116,7 @@ body {
 }
 
 header {
-	text-align: center;		
+	text-align: center;
 	background-color: #FFFFFF;
 	letter-spacing: 8px;
 	font-weight: bold;
@@ -209,6 +209,23 @@ footer {
 	text-align: center;
 	text-decoration: none;
 	font: bold 1em;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+
+th, td {
+	border: none;
+	text-align: left;
+	padding: 1%;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2
 }
 
 a:link {

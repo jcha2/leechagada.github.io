@@ -15,8 +15,9 @@ function loadXMLDoc(dname) {
 	xhttp.send();
 	return xhttp.responseXML;
 }
+
 function displayResult(xslfile) {
-	xml = loadXMLDoc("CPU.xml");
+	xml = loadXMLDoc("PCparts.xml");
 	xsl = loadXMLDoc(xslfile);
 	// code for IE
 
