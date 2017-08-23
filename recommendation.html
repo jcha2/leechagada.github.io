@@ -7,6 +7,49 @@
 <script type="text/javascript" src="loadXML.js"></script>
 </head>
 <body onload="displayResult('recommendation.xsl')">
-<div id="example"></div>
+	<div class="row">
+		<header class="col-12 col-m-12 upperheader">
+			<a href="main.html">PASS</a>
+		</header>
+		<nav class="w3-bar w3-green">
+			<a class="colorwhite w3-bar-item w3-button w3-mobile w3-border-top"
+				href="main.html" style="width: 9%">HOME</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile w3-border-top"
+				href="component.html" style="width: 15%">PC 부품 설명</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile w3-border-top"
+				href="assemble.html" style="width: 15%">PC 조립 가이드</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile w3-border-top"
+				href="booting.html" style="width: 15%">PC 부팅 가이드</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile w3-border-top w3-grey"
+				href="recommendation.html" style="width: 17%">용도별 제품 추천</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile w3-border-top"
+				href="qna.html" style="width: 17%">자주 묻는 질문</a> <a
+				class="colorwhite w3-bar-item w3-button w3-mobile w3-border-top"
+				href="aboutus.html" style="width: 12%">ABOUT US</a>
+		</nav>
+	</div>
+	<div class="row">
+		<div class="w3-mobile" id="mySidebar">
+			<button onclick="w3_close()" class="w3-button">Close&times;</button>
+			<a href="recommendation.html" class="w3-button w3-mobile"></a> <a
+				href="officeRecommend.html" class="w3-button w3-mobile">사무/가정용
+				제품 추천</a> <a href="gameRecommend.html" class="w3-button w3-mobile">게임용
+				제품 추천</a> <a
+		</div>
+	</div>
+	<div class="row w3-main" id="main">
+		<section class="w3-border-bottom">
+			<div class="w3-teal w3-light-grey">
+				<button class="w3-button w3-teal w3-large w3-light-grey"
+					onclick="w3_open()">☰</button>
+				<h3 class="w3-container">기본 구성 제품 추천</h3>
+			</div>
+			<div id="example"></div>
+		</section>
+
+		<div class="row">
+			<footer class="col-12 col-m-12"> copyright 2017. LEECHAGADA.
+				All rights reserved.</footer>
+		</div>
 </body>
 </html>
