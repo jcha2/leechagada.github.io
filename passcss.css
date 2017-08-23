@@ -233,17 +233,6 @@ a:link {
 	text-decoration: none;
 }
 
-a:visited {
-	color: black;
-}
-
-a:hover {
-	color: green;
-}
-
-a:active {
-	color: #79ABFF;
-}
 
 .colorwhite:link {
 	color: white;
