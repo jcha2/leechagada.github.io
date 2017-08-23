@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE department SYSTEM "PCpartsDTD.dtd" >
+<?xml-stylesheet type="text/xsl" href="office.xsl"?>
+<item>
+	<CPUs>
+		<basic>
+			<cpu>
+				<name>펜티엄 G4560 카비레이크</name>
+				<company>인텔</company>
+				<price>83</price>
+				<core>2</core>
+				<thread>4</thread>
+			</cpu>
+			<cpu>
+				<name>A4 7300 리치랜드</name>
+				<company>AMD</company>
+				<price>37</price>
+				<core>2</core>
+				<thread>2</thread>
+			</cpu>
+		</basic>
+		<general>
+			<cpu>
+				<name>i3-7100 카비레이크</name>
+				<company>인텔</company>
+				<price>114</price>
+				<core>2</core>
+				<thread>4</thread>
+			</cpu>
+			<cpu>
+				<name>라이젠5 1400 서밋 릿지</name>
+				<company>AMD</company>
+				<price>181</price>
+				<core>4</core>
+				<thread>8</thread>
+			</cpu>
+			<cpu>
+				<name>R5 1500 서밋 릿지</name>
+				<company>AMD</company>
+				<price>204</price>
+				<core>4</core>
+				<thread>8</thread>
+			</cpu>
+		</general>
+		<high>
+			<cpu>
+				<name>i5-7600 카비레이크</name>
+				<company>인텔</company>
+				<price>222</price>
+				<core>4</core>
+				<thread>4</thread>
+			</cpu>
+			<cpu>
+				<name>i5-7600K 카비레이크</name>
+				<company>인텔</company>
+				<price>248</price>
+				<core>4</core>
+				<thread>4</thread>
+			</cpu>
+			<cpu>
+				<name>라이젠5 1600 서밋 릿지</name>
+				<company>AMD</company>
+				<price>231</price>
+				<core>6</core>
+				<thread>12</thread>
+			</cpu>
+		</high>
+		<highest>
+			<cpu>
+				<name>i7-7700 카비레이크</name>
+				<company>인텔</company>
+				<price>328</price>
+				<core>4</core>
+				<thread>8</thread>
+			</cpu>
+			<cpu>
+				<name>i7-7700k 카비레이크</name>
+				<company>인텔</company>
+				<price>351</price>
+				<core>4</core>
+				<thread>8</thread>
+			</cpu>
+			<cpu>
+				<name>라이젠7 1700 서밋 릿지</name>
+				<company>AMD</company>
+				<price>345</price>
+				<core>8</core>
+				<thread>16</thread>
+			</cpu>
+			<cpu>
+				<name>R7 1800X 서밋 릿지</name>
+				<company>AMD</company>
+				<price>558</price>
+				<core>8</core>
+				<thread>16</thread>
+			</cpu>
+		</highest>
+	</CPUs>
+	<RAMs>
+		<ram>
+			<name>PC4-19200</name>
+			<company>삼성전자</company>
+			<price>75</price>
+			<memorytype>DDR4</memorytype>
+			<capacity>8</capacity>
+			<memorytiming>17-18-18(비공식)</memorytiming>
+		</ram>
+		<ram>
+			<name>KLEVV PC4-19200 CL15</name>
+			<company>ESSENCORE</company>
+			<price>76</price>
+			<memorytype>DDR4</memorytype>
+			<capacity>8</capacity>
+			<memorytiming>15-15-15</memorytiming>
+		</ram>
+		<ram>
+			<name>PC4-19200 CL17</name>
+			<company>타무즈</company>
+			<price>72</price>
+			<memorytype>DDR4</memorytype>
+			<capacity>8</capacity>
+			<memorytiming>17-17-17-39</memorytiming>
+		</ram>
+		<ram>
+			<name>PC4-19200 CL15 TRIDENT Z RGB</name>
+			<company>G.SKILL</company>
+			<price>207</price>
+			<memorytype>DDR4</memorytype>
+			<capacity>16(8x2)</capacity>
+			<memorytiming>15-15-15-35</memorytiming>
+		</ram>
+		<ram>
+			<name>PC3-12800</name>
+			<company>삼성전자</company>
+			<price>66</price>
+			<memorytype>DDR3</memorytype>
+			<capacity>8</capacity>
+			<memorytiming></memorytiming>
+		</ram>
+		<ram>
+			<name>PC3-12800</name>
+			<company>삼성전자</company>
+			<price>75</price>
+			<memorytype>DDR4</memorytype>
+			<capacity>8</capacity>
+			<memorytiming></memorytiming>
+		</ram>
+		<ram>
+			<name>T-Force PC4-25600 CL16 Night Hawk RGB</name>
+			<company>TeamGroup</company>
+			<price>262</price>
+			<memorytype>DDR4</memorytype>
+			<capacity>16(8x2)</capacity>
+			<memorytiming>16-18-18-38</memorytiming>
+		</ram>
+		<ram>
+			<name>PC4-19200 CL16 EVO-X WHITE RYZEN RGB</name>
+			<company>GeIL</company>
+			<price>203</price>
+			<memorytype>DDR4</memorytype>
+			<capacity>16(8x2)</capacity>
+			<memorytiming>16-16-16-36</memorytiming>
+		</ram>
+		<ram>
+			<name>PC4-19200</name>
+			<company>삼성전자</company>
+			<price>174</price>
+			<memorytype>DDR4</memorytype>
+			<capacity>16</capacity>
+			<memorytiming></memorytiming>
+		</ram>
+		<ram>
+			<name>PC4-17000</name>
+			<company>삼성전자</company>
+			<price>34</price>
+			<memorytype>DDR4</memorytype>
+			<capacity>4</capacity>
+			<memorytiming></memorytiming>
+		</ram>
+	</RAMs>
+	<MOTHERBOARDs>
+		<motherboard>
+			<name>B250M PRO4 에즈윈</name>
+			<company>ASRock</company>
+			<price>100</price>
+			<size>Micro-ATX</size>
+			<socket>LGA 1151</socket>
+			<chipset>인텔 B250</chipset>
+		</motherboard>
+		<motherboard>
+			<name>AB350M PRO4 에즈윈</name>
+			<company>ASRock</company>
+			<price>103</price>
+			<size>M-ATX</size>
+			<socket>AM4</socket>
+			<chipset>인텔 B350</chipset>
+		</motherboard>
+		<motherboard>
+			<name>B250M 박격포</name>
+			<company>MSI</company>
+			<price>103</price>
+			<size>Micro-ATX</size>
+			<socket>LGA 1151</socket>
+			<chipset>인텔 B250</chipset>
+		</motherboard>
+		<motherboard>
+			<name>GA-B250M-DS3H 듀러블에디션 피씨디렉트</name>
+			<company>GIGABYTE</company>
+			<price>94</price>
+			<size>Micro-ATX</size>
+			<socket>LGA 1151</socket>
+			<chipset>인텔 B250</chipset>
+		</motherboard>
+		<motherboard>
+			<name>PRIME B250M-A STCOM</name>
+			<company>ASUS</company>
+			<price>101</price>
+			<size>Micro-ATX</size>
+			<socket>LGA 1151</socket>
+			<chipset>인텔 B250</chipset>
+		</motherboard>
+		<motherboard>
+			<name>B350M 박격포</name>
+			<company>MSI</company>
+			<price>108</price>
+			<size>M-ATX</size>
+			<socket>AM4</socket>
+			<chipset>인텔 B350</chipset>
+		</motherboard>
+		<motherboard>
+			<name>GA-H110M-DS2V 듀러블에디션 피씨디렉트</name>
+			<company>GIGABYTE</company>
+			<price>60</price>
+			<size>Micro-ATX</size>
+			<socket>LGA 1151</socket>
+			<chipset>인텔 H110</chipset>
+		</motherboard>
+		<motherboard>
+			<name>H110M-K iBORA</name>
+			<company>ASUS</company>
+			<price>60</price>
+			<size>Micro-ATX</size>
+			<socket>LGA 1151</socket>
+			<chipset>인텔 H110</chipset>
+		</motherboard>
+		<motherboard>
+			<name>H110M-HDV 에즈윈</name>
+			<company>ASRock</company>
+			<price>69</price>
+			<size>Micro-ATX</size>
+			<socket>LGA 1151</socket>
+			<chipset>인텔 H110</chipset>
+		</motherboard>
+		<motherboard>
+			<name>GA-AB350M-Gaming 3 게이밍에디션 제이씨현</name>
+			<company>GIGABYTE</company>
+			<price>106</price>
+			<size>M-ATX</size>
+			<socket>AM4</socket>
+			<chipset>AMD B350</chipset>
+		</motherboard>
+	</MOTHERBOARDs>
+	<PSUs>
+		<psu>
+			<name>Classic II</name>
+			<company>마이크로닉스</company>
+			<price>40</price>
+			<size>ATX파워</size>
+			<capacity>500</capacity>
+		</psu>
+		<psu>
+			<name>HYPER K</name>
+			<company>FSP</company>
+			<price>41</price>
+			<size>ATX파워</size>
+			<capacity>500</capacity>
+		</psu>
+		<psu>
+			<name>Classic II</name>
+			<company>마이크로닉스</company>
+			<price>49</price>
+			<size>ATX파워</size>
+			<capacity>600</capacity>
+		</psu>
+		<psu>
+			<name>REX III </name>
+			<company>POWEREX</company>
+			<price>45</price>
+			<size>ATX파워</size>
+			<capacity>600</capacity>
+		</psu>
+		<psu>
+			<name>ENERGY OPTIMUS Mach III</name>
+			<company>EPITECH</company>
+			<price>28</price>
+			<size>ATX파워</size>
+			<capacity>500</capacity>
+		</psu>
+		<psu>
+			<name>SF-600R12A NOVA 80PLUS</name>
+			<company>SuperFlower</company>
+			<price>53</price>
+			<size>ATX파워</size>
+			<capacity>600</capacity>
+		</psu>
+		<psu>
+			<name>Classic II</name>
+			<company>마이크로닉스</company>
+			<price>66</price>
+			<size>ATX파워</size>
+			<capacity>7600</capacity>
+		</psu>
+		<psu>
+			<name>MasterWatt Lite 700 80PLUS Standard</name>
+			<company>쿨러마스터</company>
+			<price>65</price>
+			<size>ATX파워</size>
+			<capacity>700</capacity>
+		</psu>
+	</PSUs>
+	<VGAs>
+		<vga>
+			<name>지포스 GTX1060 STORM X Dual D5</name>
+			<company>이엠텍 XENON</company>
+			<price>275</price>
+			<capacity>3</capacity>
+			<chipset>NVIDIA 지포스 GTX1060</chipset>
+		</vga>
+		<vga>
+			<name>지포스 GTX1060 STORM X Dual D5</name>
+			<company>이엠텍 XENON</company>
+			<price>358</price>
+			<capacity>6</capacity>
+			<chipset>NVIDIA 지포스 GTX1060</chipset>
+		</vga>
+		<vga>
+			<name>지포스 GTX1050 STORM X Nano D5</name>
+			<company>이엠텍 XENON</company>
+			<price>142</price>
+			<capacity>2</capacity>
+			<chipset>NVIDIA 지포스 GTX1050</chipset>
+		</vga>
+		<vga>
+			<name>지포스 GTX1050 Ti STORM X Dual OC D5</name>
+			<company>이엠텍 XENON</company>
+			<price>195</price>
+			<capacity>4</capacity>
+			<chipset>NVIDIA 지포스 GTX1050 Ti</chipset>
+		</vga>
+		<vga>
+			<name>지포스 GTX1080 Ti EXOC White D5X</name>
+			<company>갤럭시</company>
+			<price>915</price>
+			<capacity>11</capacity>
+			<chipset>NVIDIA 지포스 GTX1080 Ti</chipset>
+		</vga>
+		<vga>
+			<name>지포스 GTX1070 Super JETSTREAM D5</name>
+			<company>이엠텍 XENON</company>
+			<price>605</price>
+			<capacity>8</capacity>
+			<chipset>NVIDIA 지포스 GTX1070</chipset>
+		</vga>
+		<vga>
+			<name>라데온 RX 560 OC D5</name>
+			<company>SAPPHIRE</company>
+			<price>130</price>
+			<capacity>2</capacity>
+			<chipset>AMD 라데온 RX 560</chipset>
+		</vga>
+		<vga>
+			<name>지포스 GTX1050 OC D5 스톰</name>
+			<company>MSI</company>
+			<price>146</price>
+			<capacity>2</capacity>
+			<chipset>NVIDIA 지포스 GTX1050</chipset>
+		</vga>
+	</VGAs>
+	<SSDs>
+		<ssd>
+			<name>850 EVO Series</name>
+			<company>삼성전자</company>
+			<price>105</price>
+			<capacity>250</capacity>
+			<readspeed>540</readspeed>
+			<writespeed>520</writespeed>
+		</ssd>
+		<ssd>
+			<name>Green SSD</name>
+			<company>WD</company>
+			<price>91</price>
+			<capacity>240</capacity>
+			<readspeed>540</readspeed>
+			<writespeed>430</writespeed>
+		</ssd>
+		<ssd>
+			<name>Crucial MX300 대원CTS</name>
+			<company>마이크론</company>
+			<price>107</price>
+			<capacity>275</capacity>
+			<readspeed>530</readspeed>
+			<writespeed>500</writespeed>
+		</ssd>
+		<ssd>
+			<name>960 EVO M.2 2280</name>
+			<company>삼성전자</company>
+			<price>149</price>
+			<capacity>250</capacity>
+			<readspeed>3200</readspeed>
+			<writespeed>1500</writespeed>
+		</ssd>
+		<ssd>
+			<name>Blue SSD</name>
+			<company>WD</company>
+			<price>103</price>
+			<capacity>250</capacity>
+			<readspeed>540</readspeed>
+			<writespeed>500</writespeed>
+		</ssd>
+		<ssd>
+			<name>SSD PLUS</name>
+			<company>Sandisk</company>
+			<price>91</price>
+			<capacity>240</capacity>
+			<readspeed>530</readspeed>
+			<writespeed>400</writespeed>
+		</ssd>
+		<ssd>
+			<name>850 PRO</name>
+			<company>삼성전자</company>
+			<price>154</price>
+			<capacity>256</capacity>
+			<readspeed>550</readspeed>
+			<writespeed>520</writespeed>
+		</ssd>
+		<ssd>
+			<name>RX460</name>
+			<company>타무즈</company>
+			<price>94</price>
+			<capacity>240</capacity>
+			<readspeed>530</readspeed>
+			<writespeed>400</writespeed>
+		</ssd>
+		<ssd>
+			<name>750 EVO</name>
+			<company>삼성전자</company>
+			<price>118</price>
+			<capacity>250</capacity>
+			<readspeed>540</readspeed>
+			<writespeed>520</writespeed>
+		</ssd>
+	</SSDs>
+	<HDDs>
+		<hdd>
+			<name>BLUE WD10EZEX</name>
+			<company>WD</company>
+			<price>46</price>
+			<capacity>1</capacity>
+			<buffermemory>64</buffermemory>
+		</hdd>
+		<hdd>
+			<name>Barracuda ST1000DM010</name>
+			<company>Seagate</company>
+			<price>47</price>
+			<capacity>1</capacity>
+			<buffermemory>64</buffermemory>
+		</hdd>
+		<hdd>
+			<name>DT01ACA100</name>
+			<company>Seagate</company>
+			<price>51</price>
+			<capacity>1</capacity>
+			<buffermemory>64</buffermemory>
+		</hdd>
+		<hdd>
+			<name>DT01ACA100</name>
+			<company>Seagate</company>
+			<price>46</price>
+			<capacity>1</capacity>
+			<buffermemory>32</buffermemory>
+		</hdd>
+		<hdd>
+			<name>FireCuda SSHD ST1000DX002</name>
+			<company>Seagate</company>
+			<price>94</price>
+			<capacity>1</capacity>
+			<buffermemory>64</buffermemory>
+		</hdd>
+	</HDDs>
+	<ODDs>
+		<internal>
+			<odd>
+				<name>GH24NSD1</name>
+				<company>LG전자</company>
+				<price>16</price>
+				<record>DVD멀티레코더</record>
+			</odd>
+			<odd>
+				<name>iHAS124</name>
+				<company>Lite-On</company>
+				<price>13</price>
+				<record>DVD멀티레코더</record>
+			</odd>
+			<odd>
+				<name>DRW-24D5MT</name>
+				<company>ASUS</company>
+				<price>14</price>
+				<record>DVD레코더</record>
+			</odd>
+			<odd>
+				<name>BH16NS55</name>
+				<company>LG전자</company>
+				<price>93</price>
+				<record>블루레이레코더</record>
+			</odd>
+		</internal>
+		<external>
+			<odd>
+				<name>Slim Portable GP50NB40</name>
+				<company>LG전자</company>
+				<price>33</price>
+				<record>DVD멀티레코더</record>
+			</odd>
+			<odd>
+				<name>Slim Portable BP50NB40</name>
+				<company>LG전자</company>
+				<price>121</price>
+				<record>블루레이레코더</record>
+			</odd>
+			<odd>
+				<name>KP95NW70</name>
+				<company>LG전자</company>
+				<price>50</price>
+				<record>DVD멀티레코더</record>
+			</odd>
+			<odd>
+				<name>EX-7</name>
+				<company>타무즈</company>
+				<price>26</price>
+				<record>DVD멀티레코더</record>
+			</odd>
+			<odd>
+				<name>SDRW-08D2S-ULITE</name>
+				<company>ASUS</company>
+				<price>35</price>
+				<record>DVD레코더</record>
+			</odd>
+		</external>
+	</ODDs>
+	<MOUSEs>
+		<office>
+			<mouse>
+				<name>아리엘 닥터마우스</name>
+				<company>태상씨앤아이</company>
+				<price>27</price>
+				<sensitivity>2400</sensitivity>
+				<feature>버티컬 마우스, 무선</feature>
+				<explain>장시간 일을 할 때 손목에 무리가 가지 않도록 인체 공학적으로 제작된 버티컬 마우스</explain>
+			</mouse>
+			<mouse>
+				<name>STEALTH 5</name>
+				<company>알카트로즈</company>
+				<price>06</price>
+				<sensitivity>1200</sensitivity>
+				<feature>무소음 마우스, 유선</feature>
+				<explain>가성비 좋은 제품</explain>
+			</mouse>
+			<mouse>
+				<name>M221</name>
+				<company>로지텍</company>
+				<price>15</price>
+				<sensitivity>1000</sensitivity>
+				<feature>무소음 마우스, 무선</feature>
+				<explain>한 손에 들어오는 작고 가벼운 사이로 간편한 휴대</explain>
+			</mouse>
+			<mouse>
+				<name>M331</name>
+				<company>로지텍</company>
+				<price>22</price>
+				<sensitivity>1000</sensitivity>
+				<feature>무소음 마우스, 유선</feature>
+				<explain>엄지가 자연스럽게 마우스를 감싸도록 한 비대칭구조의 그립감 좋은 무선 마우스</explain>
+			</mouse>
+		</office>
+		<game>
+			<mouse>
+				<name>DeathAdder Elite</name>
+				<company>RAZER</company>
+				<price>97</price>
+				<sensitivity>16000</sensitivity>
+				<response>1000</response>
+				<feature>최고성능</feature>
+				<explain></explain>
+			</mouse>
+			<mouse>
+				<name>G Pro</name>
+				<company>로지텍</company>
+				<price>97</price>
+				<sensitivity>12000</sensitivity>
+				<response>1000</response>
+				<feature>고성능</feature>
+				<explain>게이밍 마우스로 이미 유명한 G 102 의 업그레이드 버전</explain>
+			</mouse>
+			<mouse>
+				<name>KONE PURE OWL-EYE</name>
+				<company>ROCCAT</company>
+				<price>79</price>
+				<sensitivity>12000</sensitivity>
+				<response>1000</response>
+				<feature>고성능</feature>
+				<explain></explain>
+			</mouse>
+			<mouse>
+				<name>HACKER A600 ragoon</name>
+				<company>ABKO</company>
+				<price>25</price>
+				<sensitivity>10000</sensitivity>
+				<response>1000</response>
+				<feature>가성비 좋음</feature>
+				<explain></explain>
+			</mouse>
+			<mouse>
+				<name>G 102 PROGIDY</name>
+				<company>로지텍</company>
+				<price>20</price>
+				<sensitivity>6000</sensitivity>
+				<response>1000</response>
+				<feature>가성비 좋음</feature>
+				<explain></explain>
+			</mouse>
+			<mouse>
+				<name>TRON G10</name>
+				<company>맥스틸</company>
+				<price>20</price>
+				<sensitivity>4000</sensitivity>
+				<response>1000</response>
+				<feature>보급형</feature>
+				<explain></explain>
+			</mouse>
+		</game>
+	</MOUSEs>
+	<KEYBOARDs>
+		<office>
+			<keyboard>
+				<name>GK4</name>
+				<company>비프렌드</company>
+				<price>35</price>
+				<feature>무소음</feature>
+				<explain>펜타그래프 키보드, 무소음으로 유명</explain>
+			</keyboard>
+			<keyboard>
+				<name>Sculpt Ergonomic Desktop </name>
+				<company>마이크로 소프트</company>
+				<price>107</price>
+				<feature>인체공학적 디자인</feature>
+				<explain>마우스, 키보드, 넘버패트 세트이며 키보드가 인체공학적으로 설계되어 편하게 받침대에 손목을 올리고 작업
+					가능
+				</explain>
+			</keyboard>
+			<keyboard>
+				<name>IR-K2000</name>
+				<company>아이리버</company>
+				<price>13</price>
+				<feature>무소음, 가성비 좋음</feature>
+				<explain>깔끔하고 모던한 디자인으로 인기가 많으며 가성비 좋은 상품</explain>
+			</keyboard>
+		</office>
+		<game>
+			<keyboard>
+				<name>K640</name>
+				<company>ABKO</company>
+				<price>40</price>
+				<feature>청축, 가성비 좋음</feature>
+				<explain></explain>
+			</keyboard>
+			<keyboard>
+				<name>NKEYBOARD NKEY–R3</name>
+				<company>스카이디지탈 </company>
+				<price>113</price>
+				<feature>청축</feature>
+				<explain></explain>
+			</keyboard>
+			<keyboard>
+				<name>HACKER K360</name>
+				<company>ABKO</company>
+				<price>21000</price>
+				<feature>플런저, 가성비 좋음</feature>
+				<explain>방수기능, 기계식키보드 보다 타격감은 덜하지만 비슷한 경쾌함을 줌</explain>
+			</keyboard>
+		</game>
+	</KEYBOARDs>
+</item>
