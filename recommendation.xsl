@@ -57,7 +57,7 @@
 							<th>쓰레드</th>
 						</tr>
 						<xsl:for-each select="item/CPUs/basic/cpu">
-							<xsl:sort select="price"></xsl:sort>
+							<xsl:sort data-type="number" select="price"></xsl:sort>
 							<tr>
 								<td>
 									<xsl:value-of select="name"></xsl:value-of>
