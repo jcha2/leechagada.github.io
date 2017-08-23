@@ -3,7 +3,7 @@
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:decimal-format name="won" decimal-separator=","/>
 	<xsl:template match="/">
-	
+<!-- 내림차순 정렬 다시 확인 -->
 		<html>
 			<body>
 				<div>
