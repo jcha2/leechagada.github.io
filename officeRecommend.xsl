@@ -7,17 +7,17 @@
 		<html>
 			<body>
 				<div>
-					<p>메인보드</p>
+					<p>CPU</p>
 					<table>
 						<tr>
 							<th>제품명</th>
 							<th>제조사</th>
 							<th>가격(최저가)</th>
-							<th>크기</th>
-							<th>소켓규격</th>
-							<th>칩셋</th>
+							<th>코어</th>
+							<th>스레드</th>
+						
 						</tr>
-						<xsl:for-each select="item/MOTHERBOARDs/motherboard">
+						<xsl:for-each select="item/CPUs/basic|general|high">
 							<xsl:sort data-type="number" select="price"></xsl:sort>
 							<tr>
 								<td>
@@ -31,13 +31,10 @@
 									원대
 								</td>
 								<td>
-									<xsl:value-of select="size"></xsl:value-of>
+									<xsl:value-of select="core"></xsl:value-of>개
 								</td>
 								<td>
-									<xsl:value-of select="socket"></xsl:value-of>
-								</td>
-								<td>
-									<xsl:value-of select="chipset"></xsl:value-of>
+									<xsl:value-of select="thread"></xsl:value-of>개
 								</td>
 							</tr>
 
