@@ -3,7 +3,7 @@
 	xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:decimal-format name="won" decimal-separator=","/>
 	<xsl:template match="/">
-<!-- 내림차순 정렬 다시 확인 -->
+	
 		<html>
 			<body>
 				<div>
@@ -18,7 +18,7 @@
 							<th>칩셋</th>
 						</tr>
 						<xsl:for-each select="item/MOTHERBOARDs/motherboard">
-							<xsl:sort select="price"></xsl:sort>
+							<xsl:sort data-type="number" select="price"></xsl:sort>
 							<tr>
 								<td>
 									<xsl:value-of select="name"></xsl:value-of>
