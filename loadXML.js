@@ -17,7 +17,7 @@ function loadXMLDoc(dname) {
 }
 
 function displayResult(xslfile) {
-	xml = loadXMLDoc("PCparts.xml");
+	xml = loadXMLDoc("pcparts.xml");
 	xsl = loadXMLDoc(xslfile);
 	// code for IE
 
@@ -40,20 +40,6 @@ function displayResult(xslfile) {
 		document.getElementById("example").appendChild(resultDocument);
 	}
 }
-
-function loadXMLString(txt) {
-	if (window.DOMParser) {
-		parser = new DOMParser();
-		xmlDoc = parser.parseFromString(txt, "text/xml");
-	} else // Internet Explorer
-	{
-		xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
-		xmlDoc.async = "false";
-		xmlDoc.loadXML(txt);
-	}
-	return xmlDoc;
-}
-// Avoid Empty Text nodes (in FireFox)
 
 var slideIndex = 1;
 showDivs(slideIndex);
