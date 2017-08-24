@@ -223,10 +223,6 @@ footer {
 	font: bold 1em;
 }
 
-.col-11{
-	align: center;
-}
-
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -238,6 +234,10 @@ th, td {
 	border: none;
 	text-align: left;
 	padding: 1%;
+}
+
+.col-11{
+	overflow-x:auto;
 }
 
 tr:nth-child(even) {
