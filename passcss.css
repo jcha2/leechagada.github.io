@@ -94,6 +94,7 @@ body, html {
 	.col-m-12 {
 		width: 100%;
 	}
+	
 }
 
 @media only screen and (max-width : 599px) {
@@ -106,6 +107,13 @@ body, html {
 		display: table;
 	}
 }
+
+@media only screen and (max-width : 800px) {
+	.hidden {
+	    display: none;
+	}
+}
+
 
 body {
 	position: relative;
@@ -121,7 +129,11 @@ header {
 	letter-spacing: 8px;
 	font-weight: bold;
 	font-size: 8em;
-	line-height: 280%;
+	line-height: 100%;
+}
+
+.headerlogo {
+	font-size: 0.1em;
 }
 
 .upperheader {
@@ -138,7 +150,7 @@ nav {
 	text-align: center;
 	display: table-cell;
 	word-wrap: break-word;
-	line-height: 200%;
+	line-height: 150%;
 }
 
 pre {
