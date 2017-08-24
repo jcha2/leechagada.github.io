@@ -141,7 +141,7 @@ header {
 	font-size: 5em;
 	text-align: center;
 	background-color: #FFFFFF;
-	line-height: 130%;
+	line-height: 120%;
 	padding: 1%;
 }
 
@@ -150,7 +150,7 @@ nav {
 	text-align: center;
 	display: table-cell;
 	word-wrap: break-word;
-	line-height: 150%;
+	line-height: 160%;
 }
 
 pre {
