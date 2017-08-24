@@ -6,7 +6,7 @@
 
 		<html>
 			<body>
-				<div class="col-11 col-m-12">
+				<div>
 					<p>RAM</p>
 					<table>
 						<tr>
@@ -41,11 +41,13 @@
 									<xsl:value-of select="memorytiming"></xsl:value-of>
 								</td>
 							</tr>
+
 						</xsl:for-each>
 					</table>
+
 				</div>
 
-				<div class="col-11 col-m-12">
+				<div>
 					<p>메인보드</p>
 					<table>
 						<tr>
@@ -78,12 +80,14 @@
 								<td>
 									<xsl:value-of select="chipset"></xsl:value-of>
 								</td>
+
 							</tr>
+
 						</xsl:for-each>
 					</table>
+
 				</div>
-				
-				<div class="col-11 col-m-12">
+				<div>
 					<p>파워 서플라이</p>
 					<table>
 						<tr>
@@ -110,16 +114,17 @@
 									<xsl:value-of select="size"></xsl:value-of>
 								</td>
 								<td>
-									<xsl:value-of select="capacity"></xsl:value-of> 
-									W
+									<xsl:value-of select="capacity"></xsl:value-of>
 								</td>
+
 							</tr>
+
 						</xsl:for-each>
 					</table>
+
 				</div>
-				
-				<div class="col-11 col-m-12">
-					<p>SSD</p>
+				<div>
+					<p>SSD(240~275GB 기준)</p>
 					<table>
 						<tr>
 							<th>제품명</th>
@@ -144,23 +149,22 @@
 								</td>
 								<td>
 									<xsl:value-of select="capacity"></xsl:value-of>
-									GB
 								</td>
 								<td>
 									<xsl:value-of select="readspeed"></xsl:value-of>
-									MB/s
 								</td>
 								<td>
 									<xsl:value-of select="writespeed"></xsl:value-of>
-									MB/s
 								</td>
+
 							</tr>
+
 						</xsl:for-each>
 					</table>
+
 				</div>
-				
-				<div class="col-11 col-m-12">
-					<p>HDD (1TB기준)</p>
+				<div>
+					<p>HDD(1TB 기준)</p>
 					<table>
 						<tr>
 							<th>제품명</th>
@@ -184,18 +188,18 @@
 								</td>
 								<td>
 									<xsl:value-of select="capacity"></xsl:value-of>
-									TB
 								</td>
 								<td>
 									<xsl:value-of select="buffermemory"></xsl:value-of>
-									MB
 								</td>
+
 							</tr>
+
 						</xsl:for-each>
 					</table>
 
 				</div>
-				<div class="col-11 col-m-12">
+				<div>
 					<p>내장형 ODD</p>
 					<table>
 						<tr>
@@ -220,12 +224,14 @@
 								<td>
 									<xsl:value-of select="record"></xsl:value-of>
 								</td>
+
 							</tr>
+
 						</xsl:for-each>
 					</table>
+
 				</div>
-				
-				<div class="col-11 col-m-12">
+				<div>
 					<p>외장형 ODD</p>
 					<table>
 						<tr>
@@ -250,10 +256,14 @@
 								<td>
 									<xsl:value-of select="record"></xsl:value-of>
 								</td>
+
 							</tr>
+
 						</xsl:for-each>
 					</table>
+
 				</div>
+
 
 
 			</body>
