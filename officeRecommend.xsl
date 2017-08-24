@@ -6,7 +6,7 @@
 
 		<html>
 			<body>
-				<div>
+				<div class="col-12 col-m-12">
 					<p>CPU basic</p>
 					<table>
 						<tr>
@@ -43,7 +43,7 @@
 					</table>
 				</div>
 				
-				<div>
+				<div class="col-12 col-m-12">
 					<p>CPU general</p>
 					<table>
 						<tr>
@@ -79,7 +79,7 @@
 					</table>
 				</div>
 				
-				<div>
+				<div class="col-12 col-m-12">
 					<p>CPU high</p>
 					<table>
 						<tr>
@@ -116,7 +116,7 @@
 					</table>
 				</div>
 
-				<div>
+				<div class="col-12 col-m-12">
 					<p>마우스</p>
 					<table>
 						<tr>
@@ -154,7 +154,7 @@
 					</table>
 				</div>
 
-				<div>
+				<div class="col-12 col-m-12">
 					<p>마우스</p>
 					<table>
 						<tr>

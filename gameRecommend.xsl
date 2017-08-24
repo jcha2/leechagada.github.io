@@ -5,9 +5,7 @@
 	<xsl:template match="/">
 	
 		<html>
-			<body>
-				<div>
-				
+			<body>				
 				<div class="col-12 col-m-12">
 					<p>CPU general</p>
 					<table>
