@@ -7,7 +7,7 @@
 		<html>
 			<body>				
 				<div class="col-11 col-m-12 RT">
-					<h3>CPU 일반형</h3>
+					<p>CPU 일반형</p>
 					<table>
 						<tr>
 							<th>제품명</th>
