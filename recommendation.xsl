@@ -6,7 +6,7 @@
 
 		<html>
 			<body>
-				<div class="col-12 col-m-12">
+				<div class="col-11 col-m-12">
 					<p>RAM</p>
 					<table>
 						<tr>
@@ -45,7 +45,7 @@
 					</table>
 				</div>
 
-				<div class="col-12 col-m-12">
+				<div class="col-11 col-m-12">
 					<p>메인보드</p>
 					<table>
 						<tr>
@@ -83,7 +83,7 @@
 					</table>
 				</div>
 				
-				<div class="col-12 col-m-12">
+				<div class="col-11 col-m-12">
 					<p>파워 서플라이</p>
 					<table>
 						<tr>
@@ -118,7 +118,7 @@
 					</table>
 				</div>
 				
-				<div class="col-12 col-m-12">
+				<div class="col-11 col-m-12">
 					<p>SSD</p>
 					<table>
 						<tr>
@@ -159,7 +159,7 @@
 					</table>
 				</div>
 				
-				<div class="col-12 col-m-12">
+				<div class="col-11 col-m-12">
 					<p>HDD (1TB기준)</p>
 					<table>
 						<tr>
@@ -195,7 +195,7 @@
 					</table>
 
 				</div>
-				<div class="col-12 col-m-12">
+				<div class="col-11 col-m-12">
 					<p>내장형 ODD</p>
 					<table>
 						<tr>
@@ -225,7 +225,7 @@
 					</table>
 				</div>
 				
-				<div class="col-12 col-m-12">
+				<div class="col-11 col-m-12">
 					<p>외장형 ODD</p>
 					<table>
 						<tr>

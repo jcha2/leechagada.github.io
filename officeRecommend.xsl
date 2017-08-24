@@ -6,7 +6,7 @@
 
 		<html>
 			<body>
-				<div class="col-12 col-m-12">
+				<div class="col-11 col-m-12">
 					<p>CPU 기초형</p>
 					<table>
 						<tr>
@@ -42,7 +42,7 @@
 					</table>
 				</div>
 				
-				<div class="col-12 col-m-12">
+				<div class="col-11 col-m-12">
 					<p>CPU 일반형</p>
 					<table>
 						<tr>
@@ -78,7 +78,7 @@
 					</table>
 				</div>
 				
-				<div class="col-12 col-m-12">
+				<div class="col-11 col-m-12">
 					<p>CPU 고급형</p>
 					<table>
 						<tr>
@@ -114,7 +114,7 @@
 					</table>
 				</div>
 
-				<div class="col-12 col-m-12">
+				<div class="col-11 col-m-12">
 					<p>마우스</p>
 					<table>
 						<tr>
@@ -153,7 +153,7 @@
 					</table>
 				</div>
 
-				<div class="col-12 col-m-12">
+				<div class="col-11 col-m-12">
 					<p>키보드</p>
 					<table>
 						<tr>
