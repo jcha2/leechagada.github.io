@@ -7,7 +7,7 @@
 		<html>
 			<body>				
 				<div class="col-12 col-m-12">
-					<p>CPU general</p>
+					<p>CPU 일반형</p>
 					<table>
 						<tr>
 							<th>제품명</th>
@@ -43,7 +43,7 @@
 				</div>
 				
 				<div class="col-12 col-m-12">
-					<p>CPU high</p>
+					<p>CPU 고급형</p>
 					<table>
 						<tr>
 							<th>제품명</th>
@@ -80,7 +80,7 @@
 				</div>
 				
 				<div class="col-12 col-m-12">
-					<p>CPU highest</p>
+					<p>CPU 최고급형</p>
 					<table>
 						<tr>
 							<th>제품명</th>
@@ -141,15 +141,14 @@
 								</td>
 								<td>
 									<xsl:value-of select="capacity"></xsl:value-of>
+									GB
 								</td>
 								<td>
 									<xsl:value-of select="chipset"></xsl:value-of>
 								</td>
 							</tr>
-
 						</xsl:for-each>
 					</table>
-
 				</div>
 				
 				
@@ -182,24 +181,20 @@
 								<td>
 									<xsl:value-of select="explain"></xsl:value-of>
 								</td>
-							
 							</tr>
-
 						</xsl:for-each>
 					</table>
-
 				</div>
 				
-				
-					<div class="col-12 col-m-12">
+				<div class="col-12 col-m-12">
 					<p>마우스</p>
 					<table>
 						<tr>
 							<th>제품명</th>
 							<th>제조사</th>
 							<th>가격(최저가)</th>
-							<th>감도</th>
-							<th>반응속도</th>
+							<th>최대 감도</th>
+							<th>최대 응답속도</th>
 							<th>특징</th>
 							<th>설명</th>
 						</tr>
@@ -218,9 +213,11 @@
 								</td>
 								<td>
 									<xsl:value-of select="sensitivity"></xsl:value-of>
+									dpi
 								</td>
 								<td>
 									<xsl:value-of select="response"></xsl:value-of>
+									hz 
 								</td>
 								<td>
 									<xsl:value-of select="feature"></xsl:value-of>
@@ -228,15 +225,10 @@
 								<td>
 									<xsl:value-of select="explain"></xsl:value-of>
 								</td>
-							
 							</tr>
-
 						</xsl:for-each>
 					</table>
-
 				</div>
-				
-				
 				
 			</body>
 

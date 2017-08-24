@@ -7,7 +7,7 @@
 		<html>
 			<body>
 				<div class="col-12 col-m-12">
-					<p>CPU basic</p>
+					<p>CPU 기초형</p>
 					<table>
 						<tr>
 							<th>제품명</th>
@@ -38,13 +38,12 @@
 									개
 								</td>
 							</tr>
-
 						</xsl:for-each>
 					</table>
 				</div>
 				
 				<div class="col-12 col-m-12">
-					<p>CPU general</p>
+					<p>CPU 일반형</p>
 					<table>
 						<tr>
 							<th>제품명</th>
@@ -80,7 +79,7 @@
 				</div>
 				
 				<div class="col-12 col-m-12">
-					<p>CPU high</p>
+					<p>CPU 고급형</p>
 					<table>
 						<tr>
 							<th>제품명</th>
@@ -88,7 +87,6 @@
 							<th>가격(최저가)</th>
 							<th>코어</th>
 							<th>스레드</th>
-
 						</tr>
 						<xsl:for-each select="item/CPUs/high/cpu">
 							<xsl:sort data-type="number" select="price"></xsl:sort>
@@ -123,7 +121,7 @@
 							<th>제품명</th>
 							<th>제조사</th>
 							<th>가격(최저가)</th>
-							<th>감도</th>
+							<th>최대감도</th>
 							<th>특징</th>
 							<th>설명</th>
 						</tr>
@@ -142,6 +140,7 @@
 								</td>
 								<td>
 									<xsl:value-of select="sensitivity"></xsl:value-of>
+									dpi
 								</td>
 								<td>
 									<xsl:value-of select="feature"></xsl:value-of>
@@ -155,7 +154,7 @@
 				</div>
 
 				<div class="col-12 col-m-12">
-					<p>마우스</p>
+					<p>키보드</p>
 					<table>
 						<tr>
 							<th>제품명</th>
