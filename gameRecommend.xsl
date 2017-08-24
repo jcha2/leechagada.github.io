@@ -8,7 +8,6 @@
 			<body>				
 				<div class="col-11 col-m-12 RT">
 					<p>CPU 일반형</p>
-					
 					<table>
 						<tr>
 							<th>제품명</th>
